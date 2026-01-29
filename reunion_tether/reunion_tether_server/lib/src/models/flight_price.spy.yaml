@@ -1,0 +1,22 @@
+class: FlightPrice
+table: flight_price
+
+fields:
+  ### The user ID who owns this price record
+  userId: int
+  ### Destination city
+  destinationCity: String
+  ### Destination country/state
+  destinationCountry: String?
+  ### Origin city
+  originCity: String
+  ### Price observed
+  price: double
+  ### Currency code (USD, EUR, etc.)
+  currency: String
+  ### Date when price was observed
+  observedDate: DateTime
+  ### Airline or source
+  source: String?
+  ### Notes
+  notes: String?

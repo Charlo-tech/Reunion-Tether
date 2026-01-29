@@ -1,0 +1,14 @@
+class: Itinerary
+table: itinerary
+
+fields:
+  ### The trip this itinerary belongs to
+  tripId: int
+  ### Day number (1, 2, 3, etc.)
+  dayNumber: int
+  ### Date for this day
+  date: DateTime?
+  ### Activities planned for this day
+  activities: String
+  ### Notes for this day
+  notes: String?
